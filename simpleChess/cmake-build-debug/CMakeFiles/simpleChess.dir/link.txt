@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\simpleChess.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\simpleChess.dir/objects.a @CMakeFiles\simpleChess.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\simpleChess.dir/objects.a -Wl,--no-whole-archive  -o simpleChess.exe -Wl,--out-implib,libsimpleChess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\simpleChess.dir\linklibs.rsp
